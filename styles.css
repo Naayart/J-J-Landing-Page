@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Sub-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* .search-bar {
+
+} */
+
+.search {
+  background: transparent;
+  border: none;
+}
+
+.search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  font-size: 1rem;
+  height: 43px;
+}
+
+.logo {
+  text-transform: uppercase;
+  color: #25262a;
+  letter-spacing: 0.2em;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #25262a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon-group {
+  display: flex;
+  gap: 10px;
+}
+.icon-group .cart-icon {
+  position: relative;
+}
+
+.icon-group .cart-icon::after {
+  content: "2";
+  position: absolute;
+  background-color: rebeccapurple;
+  color: #fff;
+  top: -15px;
+  right: -15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.nav-menu li {
+  list-style-type: none;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: rgb(31, 114, 192);
+  transition: 0.8s ease-in-out;
+}
+
+.nav-menu a:hover {
+  color: black;
+  transition: 0.8s ease-in-out;
+}
+
+.introduction {
+  background-image: url(./images/Bag\ 1.webp);
+  height: 400vh;
+}
