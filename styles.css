@@ -13,10 +13,6 @@
   margin: 0 auto;
 }
 
-/* .search-bar {
-
-} */
-
 .search {
   background: transparent;
   border: none;
@@ -103,7 +99,7 @@
   height: 80vh;
   position: relative;
   margin-top: 40px;
-  background-image: url(./images/Bag\ 1.webp);
+  background-image: url(./images/Bag5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -164,7 +160,7 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin: 40px auto;
+  margin: 140px auto;
   gap: 20px;
 }
 
@@ -219,4 +215,64 @@ html {
 
 .no-header {
   margin-top: 50px;
+}
+
+.for-image img {
+  width: 350px;
+  height: 500px;
+}
+
+.display-images {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.for-image {
+  position: relative;
+  text-align: center;
+}
+
+.for-image .image-text {
+  position: absolute;
+  bottom: 30px;
+  left: 90px;
+  color: white;
+  font-weight: bold;
+}
+
+.for-image img {
+  width: 300px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.for-image img:hover {
+  transform: scale(0.9);
+  /* transform: scale(1.1); */
+  transition: 0.5s ease-in-out;
+}
+
+.featured-products {
+  margin: 100px;
+  text-align: center;
+}
+
+.featured-products h1 {
+  margin-bottom: 50px;
+}
+
+.fa-location-dot {
+  margin-right: 10px;
+}
+
+.fa-phone {
+  margin-right: 10px;
+}
+
+.fa-square-envelope {
+  margin-right: 10px;
 }
