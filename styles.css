@@ -52,14 +52,24 @@
   display: flex;
   gap: 10px;
 }
+
+.icon-group .user-icon {
+  color: blue;
+}
+
+.icon-group .heart-icon {
+  color: blue;
+}
+
 .icon-group .cart-icon {
   position: relative;
+  color: blue;
 }
 
 .icon-group .cart-icon::after {
   content: "2";
   position: absolute;
-  background-color: rebeccapurple;
+  background-color: blue;
   color: #fff;
   top: -15px;
   right: -15px;
@@ -107,11 +117,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
-  /* color: white; */
-  align-items: flex-end; /* align children to the left */
+  align-items: flex-end;
   color: white;
-  padding-left: 80px; /* Add some padding if you want spacing from the edge */
+  padding-left: 80px;
 }
 
 .intro-text {
@@ -121,24 +129,9 @@
   text-align: left;
   margin-right: 150px;
   width: 46%;
-}
-.intro-statement {
-  display: flex;
-  /* justify-content: end; */
-  flex-direction: column;
-  width: 46%;
-  margin-right: 150px;
-}
-.intro-statement p {
-  font-size: 20px;
-  /* line-height: 1; */
-  display: flex;
-  /* justify-content: flex-end; */
-  /* text-align: left; */
-  font-size: 20px;
-  line-height: 1.4;
-  text-align: left;
-  margin-bottom: 30px;
+  font-size: 5rem;
+  font-weight: 500px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .shop-now {
@@ -147,6 +140,7 @@
   border-radius: 10px;
   border: none;
   background: blue;
+  margin-right: 600px;
 }
 
 .shop-now a {
@@ -222,6 +216,20 @@ html {
   height: 500px;
 }
 
+.our-collections {
+  margin: 40px;
+  text-align: center;
+}
+
+.our-collections h1 {
+  margin-bottom: 50px;
+}
+
+.sub-section {
+  background-color: #7d7f81;
+  margin-top: 40px;
+}
+
 .display-images {
   width: 90%;
   margin: 0px auto;
@@ -229,6 +237,10 @@ html {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.display-images h1 {
+  margin-bottom: 50px;
 }
 
 .for-image {
@@ -276,4 +288,12 @@ html {
 
 .fa-square-envelope {
   margin-right: 10px;
+}
+footer {
+  background-color: #3d8bd0;
+  padding: 30px;
+}
+
+.Copyright h1{
+  color: #000;
 }
