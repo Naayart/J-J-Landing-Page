@@ -289,11 +289,11 @@ html {
 .fa-square-envelope {
   margin-right: 10px;
 }
-footer {
+.footer-container {
   background-color: #3d8bd0;
   padding: 30px;
 }
 
-.Copyright h1{
-  color: #000;
+.Copyright {
+  margin-top: 20px;
 }
