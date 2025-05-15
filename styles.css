@@ -248,6 +248,7 @@ html {
   width: 300px;
   transition: 0.5s ease-in-out;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .for-image img:hover {
