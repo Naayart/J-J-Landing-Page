@@ -292,8 +292,25 @@ html {
 .footer-container {
   background-color: #3d8bd0;
   padding: 30px;
+  display: flex;
+}
+
+.no-header {
+  color: #fff;
+}
+
+.no-header h1 {
+  color: #fff;
+}
+.no-header .nd {
+  padding: 5px;
+  margin-top: auto;
+  line-height: 1;
+  height: 24px;
+  margin-bottom: 10px;
 }
 
 .Copyright {
-  margin-top: 20px;
+  margin: 0;
+  color: #3f3f42;
 }
